@@ -16,16 +16,16 @@
 * Servers.vue
   * Loop through an array of servers and pass the server ID and Status to the proper children to get the outcome shown below.
   * Code snippet to help get you started:
-  ```
+```
 data () {
- return {
-  servers: [
-   { id: 1, status: 'Normal'},
-   { id: 2, status: 'Critical'},
-   { id: 3, status: 'Unknown'},
-   { id: 4, status: 'Normal'}
-  ]
- }
+  return {
+    servers: [
+      { id: 1, status: 'Normal'},
+      { id: 2, status: 'Critical'},
+      { id: 3, status: 'Unknown'},
+      { id: 4, status: 'Normal'}
+    ]
+  }
 }
 ```
 
