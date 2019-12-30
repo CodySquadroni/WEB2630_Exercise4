@@ -4,7 +4,9 @@
 ## Exercise Requirements
 * Create a new Server.vue Component
   * This component will create a separate server for each List Item with the passed ID prop.
+  ```
   <li> Server #{{ server.id }}</li>
+  ```
   * Allow the component to be clicked (@click)
     * When clicked pass the data properties (props) to the ServersDetails.vue
 * ServerDetail.vue
@@ -14,6 +16,7 @@
 * Servers.vue
   * Loop through an array of servers and pass the server ID and Status to the proper children to get the outcome shown below.
   * Code snippet to help get you started:
+  ```
 data () {
  return {
   servers: [
@@ -24,6 +27,7 @@ data () {
   ]
  }
 }
+```
 
 ## Exercise Steps
 
