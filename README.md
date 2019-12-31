@@ -1,4 +1,4 @@
-# WEB 2630 Exercise 3
+# WEB 2630 Exercise 4
 > In this exercise, you will be practicing separating code in your application and putting that code in its own component. This exercise can be tricky due to all the different ways we can communicate data. My tip is to use a mix but try using the event bus approach.
 
 ## Exercise Requirements
