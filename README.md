@@ -31,8 +31,16 @@ data () {
 
 ## Exercise Steps
 
-1. Fork it (<https://github.com/CodySquadroni/WEB2630_Exercise4/fork>)
-2. Clone it (<https://github.com/GITHUB_USERNAME/WEB2630_Exercise4.git>)
+1. Create WEB2630_Exercise4 Repository on GitHub
+    * Note: Make Repository Private
+2. Open Terminal or Command Prompt
+    1. Clone Template
+        * git clone --bare https://github.com/CodySquadroni/WEB2630_Exercise4
+            * Note: Make sure to 'cd' to a directory you want it downloaded to.
+    2. cd Into WEB2630_Exercise4.git
+    3. Copy Template Into Your Repository
+        * git push --mirror https://github.com/GITHUB_USERNAME/WEB2630_Exercise4
+            * Note: Make sure to put your GitHub Username in place of GITHUB_USERNAME
 3. Complete The Exercise Requirements Above
 4. Connect WEB2630_Exercise4 to Netlify
 5. Submit Your GitHub and Netlify URL on Canvas
