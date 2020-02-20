@@ -1,34 +1,6 @@
 # WEB 2630 Exercise 4
 > In this exercise, you will be practicing separating code in your application and putting that code in its own component. This exercise can be tricky due to all the different ways we can communicate data. My tip is to use a mix but try using the event bus approach.
 
-## Exercise Requirements
-* Create a new Server.vue Component
-  * This component will create a separate server for each List Item with the passed ID prop.
-  ```
-  <li> Server #{{ server.id }}</li>
-  ```
-  * Allow the component to be clicked (@click)
-    * When clicked pass the data properties (props) to the ServersDetails.vue
-* ServerDetail.vue
-  * Have a button that can be clicked to change the selected Server's status to Normal
-  * Show:
-    * Selected Server ID and Status
-* Servers.vue
-  * Loop through an array of servers and pass the server ID and Status to the proper children to get the outcome shown below.
-  * Code snippet to help get you started:
-```
-data () {
-  return {
-    servers: [
-      { id: 1, status: 'Normal'},
-      { id: 2, status: 'Critical'},
-      { id: 3, status: 'Unknown'},
-      { id: 4, status: 'Normal'}
-    ]
-  }
-}
-```
-
 ## Exercise Steps
 
 1. Create WEB2630_Exercise4 Repository on GitHub
@@ -44,7 +16,7 @@ data () {
     4. Remove Copy WEB2630_Exercise4.git
     5. Clone Your GitHub Repository
         * git clone https://github.com/GITHUB_USERNAME/WEB2630_Exercise4
-3. Complete The Exercise Requirements Above
+3. Complete The Exercise ToDo's located in main.js, Server.vue, Servers.vue, and ServerDetails.vue
 4. Connect WEB2630_Exercise4 to Netlify
 5. Submit Your GitHub and Netlify URL on Canvas
 
