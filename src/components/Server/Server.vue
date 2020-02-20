@@ -6,7 +6,7 @@
 </template>
 
 <script>
-// ToDo: Import the eventBus from main.js
+// ToDo: Import the { eventBus } from main.js
 
 export default {
   // ToDo: Create the props for server that is passed down from Servers.vue component 
