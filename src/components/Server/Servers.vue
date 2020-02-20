@@ -21,7 +21,7 @@ export default {
         { id: 4, status: 'Normal' }
       ]
     }
-    // ToDo: Initialize Server Component
   }
+  // ToDo: Initialize Server Component
 }
 </script>
