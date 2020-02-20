@@ -2,8 +2,8 @@
   <div class="col-xs-12 col-sm-6">
     <ul class="list-group">
       <!-- ToDo: Use the Server component selector with the name you gave it below -->
-      <!-- ToDo: Loop through the servers data below and give the individual item the name of server(Don't forget to assign a key) -->
-      <!-- ToDo: Pass the server as a property to the server component -->
+      <!-- ToDo: Loop through the servers data and give the individual item the name of server(Don't forget to assign a key) -->
+      <!-- ToDo: Pass server as a property to the Server component (remember to bind to the property name from Server.vue) -->
     </ul>
   </div>
 </template>
