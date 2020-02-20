@@ -11,7 +11,7 @@
 </template>
 
 <script>
-// ToDo: Import the eventBus from main.js
+// ToDo: Import the { eventBus } from main.js
 
 export default {
   data () {
