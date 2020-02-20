@@ -1,6 +1,6 @@
 <template>
   <div class="col-xs-12 col-sm-6">
-    <!-- ToDo: Put a v-if !server that shows this paragraph if empty or null  -->
+    <!-- ToDo: Put a v-if !server that shows this paragraph -->
     <p>Server Details are currently not updated</p>
     <!-- ToDo: Add a v-else to the below empty paragraph that shows Server #{{ server.id }} selected, Status: {{ server.status }} -->
     <p></p>
