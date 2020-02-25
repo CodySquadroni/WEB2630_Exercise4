@@ -24,7 +24,7 @@
 
 ## Final Outcome
 
-![](Exercise4_Finished.png)
+![](Exercise4_Finished.gif)
 
 # Commands
 ## Project setup
